@@ -1,10 +1,10 @@
-nav {
+nav { /* estilo do menu superior */
     margin: 0;
     padding: 0;
     position: fixed;
     top: 0;
-    width: 100%;
-    background-color: #2f422f;
+    width: 100%; 
+    background-color: #2f422f; /* cor */
 }
 
 nav ul {
@@ -27,9 +27,9 @@ nav ul li a {
 body {
     margin-top: 50px; /* motivo: evitar que o conteúdo fique escondido atrás do menu */
     font-family:  'Trebuchet MS', sans-serif; /* fonte */
-    background-color: #fff7c8;
-    color: #333;
-    margin-left: 0;
+    background-color: #fff7c8; /* cor de fundo */
+    color: #333; /* cor do texto */
+    margin-left: 0; /* removendo a margem esquerda para evitar que barra de menu fique com espaço a esquerda*/
 }
 
 section {
